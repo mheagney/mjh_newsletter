@@ -1,0 +1,6 @@
+<%= turbo_frame_tag "template-details" do %>
+  <div class="prose flex-col max-w-none flex w-full">
+    <h1>Edit Template</h1>
+    <%= render partial: "form", locals: {template: @template} %>
+  </div>
+<% end %>
